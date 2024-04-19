@@ -1,0 +1,9 @@
+langchain
+OpenAI
+flask-sqlalchemy
+tiktoken
+langchain-pinecone
+streamlit_chat
+pinecone-client
+langchain-community
+python-dotenv
