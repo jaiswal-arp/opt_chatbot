@@ -23,7 +23,7 @@ PINECONE_API_KEY = os.getenv("PINECONE_API_KEY")
 # Function for preprocessing documents
 def doc_preprocessing():
     # Load text documents from a directory
-    loader = DirectoryLoader('/workspaces/opt_chatbot/input_files', 
+    loader = DirectoryLoader('input_files/', 
                              glob="./*.txt",                          #only txt files
                              loader_cls=TextLoader,
                              show_progress=True)
