@@ -39,7 +39,7 @@ F1Bot is deployed on Streamlit Cloud, providing users with easy access to the co
 
 
 ## Installation
-To run the F1OPT Chatbot locally, follow these steps:
+To run the OPT Chatbot locally, follow these steps:
 
 ## Clone the repository to your local machine:
 ```bash
