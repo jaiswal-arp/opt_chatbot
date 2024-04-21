@@ -108,7 +108,7 @@ st.header("Settings")
 if "chat_history" not in st.session_state:
         # Initialize chat history with a greeting message
         st.session_state.chat_history = [
-            AIMessage(content="Hello, I am a bot. How can I help you?"),
+            AIMessage(content="Hello, I am a F1 OPT Chatbot. How can I help you with today?"),
         ]
 if "vector_store" not in st.session_state:
         # Initialize vector store
