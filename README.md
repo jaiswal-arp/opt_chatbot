@@ -38,6 +38,27 @@ F1Bot is deployed on Streamlit Cloud, providing users with easy access to the co
 URL - https://optchatbot-zenfqup9va8ijorzvp6o9h.streamlit.app/
 ---
 
+## Installation
+To run the F1OPT Chatbot locally, follow these steps:
 
+## Clone the repository to your local machine:
+bash
+
+git clone <repository_url>
+## Install the required dependencies:
+bash
+
+pip install -r requirements.txt
+Set up environment variables:
+Create a .env file in the project directory.
+Add the following environment variables to the .env file:
+plaintext
+
+OPENAI_API_KEY=<your_openai_api_key>
+PINECONE_API_KEY=<your_pinecone_api_key>
+Run the Streamlit application:
+bash
+Copy code
+streamlit run chatbot.py
 
 
