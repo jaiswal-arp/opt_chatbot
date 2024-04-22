@@ -35,7 +35,7 @@ OPT Bot is a conversational chatbot specifically designed to provide assistance 
 
 F1Bot is deployed on Streamlit Cloud, providing users with easy access to the conversational chatbot directly through a web browser. To access the deployed version of OPT ChatBot, simply visit the Streamlit Cloud URL where the application is hosted. Users can then interact with the chatbot interface, typing messages in the input box provided and receiving responses in real-time.
 
-### URL - https://optchatbot-zenfqup9va8ijorzvp6o9h.streamlit.app/
+### URL - https://optchatbot-bgd3tp6pcwpzyq8hdnyang.streamlit.app/
 
 
 ## Installation
