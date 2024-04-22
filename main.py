@@ -17,8 +17,8 @@ import streamlit as st
 
 # Load environment variables
 load_dotenv()
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-PINECONE_API_KEY = os.getenv("PINECONE_API_KEY")
+OPENAI_API_KEY = st.secrets("OPENAI_API_KEY")
+PINECONE_API_KEY = st.secrets("PINECONE_API_KEY")
 
 # Function for preprocessing documents
 def doc_preprocessing():
