@@ -61,3 +61,10 @@ PINECONE_API_KEY=<your_pinecone_api_key>
 streamlit run chatbot.py
 ```
 
+
+### References 
+Pinecone Documentation. "Describe Index - Pinecone API Reference." Pinecone, URL - https://docs.pinecone.io/home.
+Streamlit Documentation. "Streamlit Documentation." Streamlit, URL - https://docs.streamlit.io/
+Krishnaik06. "Complete Langchain Tutorials - LLM Generic APP." GitHub, URL - https://github.com/krishnaik06/Complete-Langchain-Tutorials/blob/main/LLM%20Generic%20APP/test.ipynb
+
+
