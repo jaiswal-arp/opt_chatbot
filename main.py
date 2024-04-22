@@ -1,6 +1,6 @@
 # Import required libraries
 import os 
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 from langchain_community.document_loaders import DirectoryLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import Pinecone
@@ -16,7 +16,7 @@ from pinecone import Pinecone
 import streamlit as st 
 
 # Load environment variables
-load_dotenv()
+#load_dotenv()
 OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
 PINECONE_API_KEY = st.secrets["PINECONE_API_KEY"]
 
