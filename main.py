@@ -102,7 +102,7 @@ st.set_page_config(page_title="Chat with websites", page_icon="🤖")
 st.title("Chat with OPT ChatBot")
 
 # sidebar
-st.header("Settings")
+#st.header("")
    
 # session state
 if "chat_history" not in st.session_state:
